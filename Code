@@ -13,3 +13,51 @@ plt.pie(Number_Of_Cases,
 plt.show()
 
 -----------------------------------------------------------------------------------------------------------
+
+
+import matplotlib.pyplot as plt
+
+plt.title("Monthly affect covid-19 on Unemployment rate")
+plt.xlabel("Months")
+plt.ylabel(rate)
+x = [1,2,3,4,5,6]
+y = [3864000, 4269000, 4325000, 6865000, 5854000, 4511000 ]
+
+
+plt.bar(x, y)
+
+plt.legend()
+plt.show()
+-----------------------------------------------------------------------------------------------------------
+
+
+import matplotlib.pyplot as plt
+
+months = [1,2,3,4,5,6]
+unemployment = [3864000, 4269000, 4325000, 6865000, 5854000, 4511000 ]
+deathrate = [168,91,102,353,203,71]
+grantapplicationrate = [3968000,4126670,4254000,5152002,4965000,0]
+plt.stackplot(months,unemployment,deathrate,grantapplicationrate, colors=["lightblue", "white", "navy", "navy", "white", "white"])
+
+
+plt.title("Monthly affect covid-19 on Unemployment rate")
+plt.xlabel("Months")
+plt.ylabel("Rate")
+
+
+plt.legend()
+plt.show()
+
+-----------------------------------------------------------------------------------------------------------
+
+import matplotlib.pyplot as plt
+
+months = [1,2,3,4,5,6]
+Grant_Application_Rate = [3968000,4126670,4254000,5152002,4965000,0]
+
+plt.plot(months, Grant_Application_Rate)
+plt.title('Grant Application Rate')
+plt.xlabel('Months')
+plt.ylabel('Rate')
+
+plt.show()
