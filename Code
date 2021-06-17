@@ -1,1 +1,15 @@
+import matplotlib.pyplot as plt
 
+months = ["January", "February", "March", "April", "May", "June"]
+Number_Of_Cases = ["7550","7924","20438","37132", "10328", "5923"]
+color = ["lightblue", "cornflowerblue", "mediumblue", "navy", "royalblue", "lavender"]
+plt.pie(Number_Of_Cases,
+        labels=months,
+        colors=color,
+        shadow=True,
+        autopct="%1.1f%%"
+        )
+
+plt.show()
+
+-----------------------------------------------------------------------------------------------------------
