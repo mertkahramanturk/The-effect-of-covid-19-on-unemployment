@@ -15,11 +15,11 @@
 ### Part-2 : Effects on Unemployment rate in Turkey
 Increases and decreases in cases according to months were regularly observed in our country. With the increase in cases, a heavy burden began to be placed on our health system. Thus, hospital capacities began to be insufficient. So, the government has started to pursue policies to reduce the spread of the pandemic. These policies were supported by shop closures, travel restrictions and curfews. As a result of these regulations, the increase in unemployment started to increase with the number of cases. These obligatory measures were not taken into account in proportion to the number of unemployment. Because layoffs were prohibited and financial support was applied to the personnel who were on unpaid leave.
 #### The tool :
-**** Matplotlib and pandas libraries over Python were used to graph the data. 
+* Matplotlib and pandas libraries over Python were used to graph the data. 
 #### Data Sources :
 The website of the Ministry of Health was used to get covid-19 data by month.
-!https://saglik.gov.tr/
+https://saglik.gov.tr/
 TUIK's website was used to obtain unemployment data.
-!https://www.tuik.gov.tr/
+https://www.tuik.gov.tr/
 
 Other datasets are attached in the project.I used 6 datasets totally and and I have 5 visuals in my project.All files are available in the project documents and graph. You can find the codes in which the graphics are matched with the data and the excel records of the data from the Code file and Data section in my project file.
