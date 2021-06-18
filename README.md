@@ -17,9 +17,9 @@ Increases and decreases in cases according to months were regularly observed in 
 #### The tool :
 * Matplotlib and pandas libraries over Python were used to graph the data. 
 #### Data Sources :
-*The website of the Ministry of Health was used to get covid-19 data by month.
-https://saglik.gov.tr/
-*TUIK's website was used to obtain unemployment data.
-https://www.tuik.gov.tr/
+* The website of the Ministry of Health was used to get covid-19 data by month.
+! https://saglik.gov.tr/
+* TUIK's website was used to obtain unemployment data.
+! https://www.tuik.gov.tr/
 
 Other datasets are attached in the project.I used 6 datasets totally and and I have 5 visuals in my project.All files are available in the project documents and graph. You can find the codes in which the graphics are matched with the data and the excel records of the data from the Code file and Data section in my project file.
